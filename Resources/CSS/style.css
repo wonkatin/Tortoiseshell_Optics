@@ -10,7 +10,6 @@ body {
   width: 960px;
   margin: 0 auto;
 }
-
 /* BANNER & HEADER */
 .banner {
   display: flex;
@@ -18,7 +17,7 @@ body {
   height: 31rem;
   background-image: url(../Images/glasses-bg.png);
   background-repeat: no-repeat;
-  background-position: center;
+
   background-size: cover;
 }
 header {
@@ -54,6 +53,8 @@ header img {
   display: flex;
   justify-content: flex-end;
   margin-top: 10rem;
+  width: 1024px;
+  height: auto;
 }
 .slogan span {
   background-color: white;
@@ -62,4 +63,30 @@ header img {
   line-height: 1.2;
   padding: 1.5rem 5rem;
 
+}
+/* SERVICES */
+.services {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 8rem;
+  width: auto;
+}
+.service-image .exams img {
+  width: 3.5rem;
+  height: auto;
+}
+.service-image .fittings img {
+  width: 5rem;
+  height: auto;
+}
+.service-image .delivery img {
+  width: 5rem;
+  height: auto;
 }
