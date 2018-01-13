@@ -78,6 +78,11 @@ header img {
   height: 8rem;
   width: auto;
 }
+.service .margin {
+  margin-right: 6rem;
+}
+
+}
 .service-image .exams img {
   width: 3.5rem;
   height: auto;
