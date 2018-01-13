@@ -78,20 +78,22 @@ header img {
   height: 8rem;
   width: auto;
 }
-.service .margin {
+.margin {
   margin-right: 6rem;
 }
 
-}
-.service-image .exams img {
+.service-image.exams img {
   width: 3.5rem;
   height: auto;
 }
-.service-image .fittings img {
+.fittings img {
   width: 5rem;
   height: auto;
 }
-.service-image .delivery img {
+.delivery img {
   width: 5rem;
   height: auto;
+}
+.service span {
+  text-align: center;
 }
