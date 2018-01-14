@@ -166,7 +166,7 @@ footer img {
 
   }
 }
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 640px) {
   .container {
     width: 470px;
   }
@@ -198,24 +198,29 @@ footer img {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-  .service {
-    margin-bottom: 1.54rem;
-  }
+
   .services {
     flex-direction: column;
     align-items: center;
     margin-top: 3.77rem;
     margin-bottom: 3.77rem;
   }
-  .service-image {
+  .service {
+    justify-content: flex-start;
     margin-bottom: 1.54rem;
+  }
+  .fittings {
+    padding-top: 1rem;
   }
   .description {
     font-size: 0.77rem;
+    padding-top: 1.54rem;
   }
   .margin {
     margin-right: 0rem;
   }
+
+
   .infobox {
     flex-direction: column;
   }
