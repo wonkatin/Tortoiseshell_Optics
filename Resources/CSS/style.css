@@ -95,6 +95,44 @@ header img {
   width: 5rem;
   height: auto;
 }
-.service span {
+.service p {
   text-align: center;
+}
+/* INFO */
+.infobox {
+  display: flex;
+  width: 100%;
+
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35%;
+}
+.philosophy {
+  margin-right: 5%;
+}
+.info-title {
+  background-color: cadetblue;
+  font-weight: bold;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 10rem;
+  color: white;
+}
+/* FOOTER */
+footer {
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding-left: 2rem;
+  background-color: azure;
+}
+footer img {
+  height: 1.5rem;
+  width: auto;
+  padding-right: 1rem;
 }
