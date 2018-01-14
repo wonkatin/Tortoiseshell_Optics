@@ -15,10 +15,12 @@ body {
   display: flex;
   flex-direction: column;
   height: 31rem;
+  width: auto;
   background-image: url(../Images/glasses-bg.png);
   background-repeat: no-repeat;
-
   background-size: cover;
+  background-position: top center;
+
 }
 header {
   display: flex;
@@ -48,6 +50,9 @@ header img {
   padding-bottom: 1rem;
   padding-left: 2rem;
   color: white;
+}
+header p {
+  display: none;
 }
 .slogan {
   display: flex;
@@ -82,7 +87,6 @@ header img {
 .margin {
   margin-right: 6rem;
 }
-
 .service-image.exams img {
   width: 3.5rem;
   height: auto;
@@ -102,16 +106,15 @@ header img {
 .infobox {
   display: flex;
   width: 100%;
-
 }
 .info {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   width: 35%;
 }
 .philosophy {
   margin-right: 5%;
+  margin-left: 4rem;
 }
 .info-title {
   background-color: cadetblue;
@@ -121,6 +124,11 @@ header img {
   padding-bottom: 0.5rem;
   width: 10rem;
   color: white;
+  margin-bottom: 1rem;
+
+}
+.content {
+  margin-bottom: 5rem;
 }
 /* FOOTER */
 footer {
@@ -135,4 +143,104 @@ footer img {
   height: 1.5rem;
   width: auto;
   padding-right: 1rem;
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 760px;
+  }
+  .banner {
+    height: 22rem;
+  }
+  header {
+    margin-top: 0;
+  }
+  .slogan {
+    margin-top: 5rem;
+    margin-right: 2rem;
+    width: 100%;
+    height: auto;
+  }
+  .slogan span {
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+
+  }
+}
+@media only screen and (max-width: 490px) {
+  .container {
+    width: 470px;
+  }
+  .banner {
+    height: 17rem;
+    width: auto;
+    background-position: 20%;
+  }
+  .navigation li {
+    display: none;
+  }
+  header p {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;
+  }
+  .slogan {
+    justify-content: center;
+    width: 100%;
+    margin-top: 9rem;
+  }
+  .slogan span {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .service {
+    margin-bottom: 1.54rem;
+  }
+  .services {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+  }
+  .service-image {
+    margin-bottom: 1.54rem;
+  }
+  .description {
+    font-size: 0.77rem;
+  }
+  .margin {
+    margin-right: 0rem;
+  }
+  .infobox {
+    flex-direction: column;
+  }
+  .info {
+    width: 100%;
+  }
+  .philosophy {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+  .info-title {
+    width: 100%;
+    text-align: center;
+  }
+  .content {
+    font-size: 0.77rem;
+    margin-left: 0.25rem;
+    margin-bottom: 4rem;
+  }
+
+  footer p {
+    display: none;
+  }
+  footer {
+    justify-content: center;
+  }
 }
